@@ -1,0 +1,14 @@
+{
+  "name": "hello-world-vercel",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A minimal Hello World project ready to deploy on Vercel",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "devDependencies": {
+    "vercel": "^37.0.0"
+  }
+}
